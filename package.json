@@ -1,0 +1,23 @@
+{
+  "name": "loggly-stream",
+  "description": "stream interface for sending JSON to loggly",
+  "version": "0.0.0",
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "repository": {
+    "url": "git://github.com/jcrugzz/loggly-stream.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "loggly": "~1.0.2"
+  },
+  "devDependencies": {
+    "tape": "2.1.x"
+  },
+  "license": "MIT"
+}
