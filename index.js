@@ -13,8 +13,12 @@ function LogglyStream (options) {
       extend({ decodeStrings: false, objectMode: true}, options));
   //
   // Remark: we are assuming object streams here so JSON is true
+  // unless json is explictly set to false
   //
-  options = extend(options, { json: true });
+  if (options.json !== false) {
+      options = extend(options, { json: true });
+  }
+  
   this.loggly = loggly.createClient(options);
 
 };
