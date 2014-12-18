@@ -25,7 +25,8 @@ var log = bunyan.createLogger({
       token: '...',
       subdomain: '...',
       auth: { user: '...',  password: '...' },
-      host: 'logs.loggly.com'
+      host: 'logs.loggly.com',
+      tags: ['global-tag']
     })
   }]
 });
