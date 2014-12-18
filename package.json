@@ -1,7 +1,7 @@
 {
   "name": "loggly-stream",
   "description": "stream interface for sending JSON to loggly",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Jarrett Cruger <jcrugzz@gmail.com>",
   "repository": {
     "url": "git://github.com/jcrugzz/loggly-stream.git"
